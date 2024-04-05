@@ -1,0 +1,5 @@
+{"date": "23.12.2023, 11:47:32", "deviceType": "Windows", "location": {"latitude": 56.85396575927734, "longitude": 60.56980133056641}, "screenWidth": 1360, "screenHeight": 768}
+{"date": "23.12.2023, 11:47:40", "deviceType": "Windows", "location": {"latitude": 56.85396575927734, "longitude": 60.56980133056641}, "screenWidth": 1360, "screenHeight": 768}
+{"date": "25.12.2023, 14:53:45", "deviceType": "Windows", "location": {"latitude": 56.85382080078125, "longitude": 60.57011795043945}, "screenWidth": 1440, "screenHeight": 960}
+{"date": "25.12.2023, 15:01:22", "deviceType": "Windows", "location": {"latitude": 56.85375213623047, "longitude": 60.57015228271484}, "screenWidth": 1440, "screenHeight": 960}
+{"date": "28.12.2023, 14:20:34", "deviceType": "Windows", "location": {"latitude": 56.85104751586914, "longitude": 60.57041168212891}, "screenWidth": 1440, "screenHeight": 960}

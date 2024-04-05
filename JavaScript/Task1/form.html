@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Анкета</title>
+</head>
+<body bgcolor="#FCDB79">
+
+<P ALIGN="CENTER"> 
+	<FONT  SIZE="6" FACE="ARIAL" color="#190F01"> 
+	<B>Анкета WEB-разработчика</B></FONT><BR>
+	
+	<FONT SIZE="4" FACE="COURIER"> 	
+	<TABLE BORDER="1" WIDTH=60% >
+		<TR>
+			<TD bgcolor="#C49145 "width="20%"><font color="black"><B>Регистрационное имя</B></TD> 
+			<TD width="50%">	
+				<form name="forma1" ALIGN="left">
+					<input type="text" name="text1"size="20">
+				</form>
+			</TD> 
+		</TR>
+		
+		<TR>
+			<TD bgcolor="#C49145 "width="20%"><font color="black"><B>Пароль</B></font></TD> 
+			<TD width="50%">	
+				<form name="password1" ALIGN="left">
+					<input type="password" name="text2" size="20">
+				</form>
+				<form name="password1"ALIGN="left">
+					<input type="password" name="text3"size="20"> <B>- Подтвердите пароль</B>
+				</form>
+			</TD> 
+		</TR>
+		
+		<TR>
+			<TD  bgcolor="#C49145 "width="20%"><font color="black"><B>Ваша специализация</B></TD> 
+			<TD width="50%">	
+				<form name="forma2"  cols="50" ALIGN="left" >
+					<select name="language" size="1">
+					<option selected value="WEB-разработчик">WEB-разработчик
+					<option value="специалист по информационной безопасности">Cпециалист по информационной безопасности
+					<option value="веб-дизайнер">WEB-дизайнер
+					<option value="Data Engineer">Data Engineer
+				</form>
+			</TD> 
+		</TR>
+		
+		<TR>
+			<TD bgcolor="#C49145 "width="20%"><font color="black"><B>Пол</B></TD> 
+			<TD width="50%">	
+				<form name="forma3">
+					<input name="sex" type="radio" ><B> Мужской </B>
+					<input name="sex" type="radio" ><B>Женский </B>
+				</form>
+			</TD> 
+		</TR>
+		<TR>
+			<TD bgcolor="#C49145 "width="20%"><font color="black"><B>Ваши навыки</B></TD> 
+			<TD width="50%">	
+				<form name="forma4">
+				<p><input type="checkbox" name="know1" value="Знание HTML и CSS"><B> Знание HTML и CSS</B></p>
+				<p><input type="checkbox" name="know2" value="Знание ASP"><B> Знание ASP</B></p>
+				<p><input type="checkbox" name="know3" value="Знание JAVA"><B> Знание JAVA</B></p>
+				<p><input type="checkbox" name="know4" value="Знание AdobePhotoshop"><B> Знание AdobePhotoshop</B></p>
+				<p><input type="checkbox" name="know5" value="Знание JavaScript"><B> Знание JavaScript</B></p>
+				<p><input type="checkbox" name="know6" value="Знание Flash"><B> Знание Flash</B></p>
+				<p><input type="checkbox" name="know7" value="Знание ASP"><B> Знание ASP</B></p>
+				<p><input type="checkbox" name="know7" value="Знание Perl"><B> Знание Perl</B></p>
+				</form>
+			</TD> 
+		</TR>
+		
+		<TR>
+			<TD bgcolor="#C49145 "width="20%"><font color="black"><B>Дополнительные сведения о себе</B></TD> 
+			<TD width="50%">	
+				<form name="forma5" ALIGN="left">
+					<textarea cols="50" rows="5" wrap="virtual"> </textarea>
+				</form>
+			</TD> 
+		</TR>
+	</TABLE>
+	
+	<form name="forma6" align="center">
+	<input type="submit" name="submit" value="Зарегистрировать" >
+	<input type="reset" name="reset" value="Очистить форму" >
+	</form>
+</body>
+</html>

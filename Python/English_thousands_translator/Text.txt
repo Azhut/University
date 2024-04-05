@@ -1,0 +1,137 @@
+In the wake of Microsoft's release of its GitHub Copilot tool, Apple could soon follow suit with a new version of Xcode that includes generative AI (genAI) capabilities designed to help developers write code.
+The feature is expected to be capable of generating code in response to natural language commands. This should be really helpful for Apple developers, particularly as Apple’s Xcode Pro should also be able to verify code, check for flaws, and more.
+Developers, developers, state-sponsored hackers
+It’s possible even the most security-conscious developers will be able to use the tool, as it seems likely Apple will develop it to be as private as possible; that means your code and your requests don’t end up stored on cloud servers somewhere.
+
+
+It is also interesting to consider how this software might work beside some of the other innovative genAI technologies Apple and others are working on. Think how virtual worlds for gaming apps can be created on the fly and how these virtual spaces can also be used within software-based experiences. (There was speculation last summer that this kind of large language model (LLM)-based virtual world creation was already on Apple’s radar.)
+Hopefully, of course, the move won’t inspire state-sponsored hackers such as (presumably) the insidious NSO Group to use these automated tools to brush up their hacks, as Microsoft has already confirmed some groups have been doing with Copilot.
+GenAI in the Spotlight
+The latest report also suggests Apple might choose to improve Spotlight search with genAI. Spotlight is the on-device search available within every device that lets you sift through your digital “stuff."
+Making Spotlight more contextually aware, fluid, and responsive through generative AI is potentially powerful, as it means achieving almost anything you can do with your device — including groups of actions reliant on different apps — might be possible just by describing what you need.
+That’s like taking AppleScript or Shortcuts and turning the volume up to 11, though Cupertino’s developer teams aren’t sure yet whether it will be ready this year.
+Cupertino rising
+The accelerating pace of well-timed reports from inside Apple’s AI teams represent two key modalities: Apple is making it clear that it is not going to be left behind in the AI arms race, while sending a message to its audiences about what’s coming.
+We’ve looked at quite a lot of this activity even this week, but it is now clear that where it makes sense, Apple’s teams are weaving generative AI within strategic domains all through the company’s platform ecosystems.
+Bloomberg reports that Apple’s software vice president, Craig Federighi, has requested employees build as many new AI features as they can for Apple’s devices this year, though the company is also building more complex articulations that may not be ready for some time yet. 
+The latter implies a road map of genAI deployment across the Apple ecosystem, likely defined at least to an extent by hardware, software, and ethical constraints.
+The real everything machine
+All the same, the continued acceleration of Apple’s efforts speaks volumes and promises much more. Think back to the launch of the original iPhone and all you had was music, browsing, and communication; now, you’ll be able to add automated creation of almost anything you can speak to the list. The ceiling of the possible remains unmet.
+Signing off, here are the most recent revelations concerning Apple’s work around AI at the moment:
+Apple has built Keyframer, a tool that creates animations for 2D images.
+Apple has developed MLLM-Guided Image Editing to perform image edits using text commands.
+The company last year unveiled tech that lets genAI models work on edge devices such as iPhones, no server required.
+There's the ML Explore machine learning framework for Apple Silicon.
+Apple Ferret helps optimize machine learning.
+Apple built a tool to create avatars from video.
+Apple has published numerous research papers and made dozens of AI-related acquisitions in the last year, with more coming.
+What are the secrets Apple's not leaking?
+Bear in mind that, when considering an enterprise as secretive as Apple, the fact that so many in development projects have now been leaked or revealed simply means the company has a lot going on that we don’t yet know about.
+And now that development of visionOS 1 is complete (if such development ever really is complete), the company’s software teams have a little more leeway to seek out those domains in which LLM intelligence might make the most difference to people’s lives.
+
+
+—--
+When you think about your smartphone, apps and interfaces are probably the first things that come to mind. Beneath all that surface-level stuff, though, our modern mobile devices are filled with files — folders upon folders of 'em! — just like the clunky ol' computers we've relied upon for ages.
+We may not come face to face with our phones' file systems too often, but it's valuable to know they're there — and to know how they can work for us when the need arises. After all, your Android device is a productivity powerhouse. It can juggle everything from PDFs and PSDs to presentations and podcasts. It can even act as a portable hard drive and house any sort of important files you might need in your pocket (and not just on some far-away cloud). Your mobile device can carry an awful lot of data, and there may come a time when you want to dig in and deal directly with it.
+Here's everything you need to know to get under the hood and tap into your phone's file managing powers.
+
+
+Managing files on your Android phone
+You might not realize it at a glance, but Android actually allows you to access a device's entire file system — even from the device itself.
+The operating system has had its own native file manager since 2015's Android 6.0 release, too, and what started out as an experimental-seeming effort has evolved into a robust and capable tool for all types of data management.
+Google's excellent Files app comes preinstalled on Pixel phones and certain other Android devices. And if you're using a phone made by Samsung or another non-Google manufacturer that didn't include the app on your device by default, you can download it for free from the Play Store and use it in place of whatever less-fully-featured alternative your phone's creator baked into its software.
+When you first open Google's Files app, you'll find yourself staring at its Browse tab — which shows you your most recent files at the top followed by a breakdown of different categories like downloads, documents, and images.
+Beneath that, you'll find a "Collections" section that gives you an easy way to open any important files that you mark as favorites, as well as a way to stow more sensitive files in a special "safe folder" that requires extra authentication to access.
+And finally, beneath that, you'll see an "Internal storage" option that lets you browse your device's local storage in a traditional file-tree structure to find anything you need.
+Perhaps most important, though, is the search bar at the top of the Files app — which lets you easily find anything on your phone, no matter where it might be hiding. Google's in the midst of upgrading that function to let it search for text within images, documents, and PDFs, too, which will make it even more useful.
+And finally, don't overlook the Files app's Clean tab. It's the fastest and simplest way to free up space on your phone — by following Google's specific one-tap recommendations for eliminating specific sorts of storage-consuming, likely-not-needed files.
+If you need even more advanced on-device file management functions, meanwhile — for instance, dealing with different archive formats or performing batch operations on locally stored files — a third-party file manager can fill in those gaps. You can find my latest recommendations in my separate roundup of the best Android file manager apps.
+Supplementing your phone's local storage
+One little-known feature of Android is its ability to connect with external storage devices like USB memory sticks and even larger-capacity portable hard drives. A phone just has to support something known as USB On-The-Go, or USB OTG, in order for the connection to work.
+A fair number of devices, including Google's Pixel phones and many Samsung Galaxy products, offer such support. If you aren't sure if your phone does, your best bet is to Google its name along with "USB OTG"; odds are, you'll find the answer fairly quickly.
+Provided your device supports USB OTG, all you need is a USB-A to USB-C adapter like this one made by Amazon. Use the adapter to plug the external drive into your phone, then look for a notification confirming the drive is connected.
+Tap the "Explore" option within the notification, and that's it: You can now browse and access all the files on your external drive.
+When you're finished, don't forget to go back to the notification and tap "Eject" before disconnecting the drive.
+Transferring files between your phone and computer
+In addition to supporting external hard drives, your Android phone can act as an external hard drive. Just plug your device into any Windows, Mac, or ChromeOS computer, and you can access its entire file system and drag and drop files between it and your desktop with ease.
+With a Windows or ChromeOS system, it's essentially as simple as plug and play. With a Mac, you'll first need to install a special program on your computer before the connection can be established.
+For step-by-step instructions on any of those fronts, click over to my comprehensive Android file transfer guide.
+Transferring files wirelessly between devices
+Want to transfer files between your Android phone and a computer — or another Android phone, an iPhone, or a tablet of some sort — without the need for wires? No problem.
+Your most basic option is to embrace a middleman — specifically, a cloud storage service like Google Drive, Dropbox, or Microsoft OneDrive. Just upload the files to a folder within the respective app on your Android phone, then find the folder within the same app on the receiving device (or vice versa).
+You can get more advanced than that, though, and make your life significantly easier as a result — provided you're transferring between either two Android devices or an Android device and a Windows or ChromeOS computer in the same physical area.
+Just open up that Google-made Files app on your phone and tap the Nearby Share tab on its bottom edge. Tap the Send or Receive button and follow the steps to get the process started.
+Any other reasonably recent Android device should be ready to send or receive files as part of that same system without any extra software or effort. The same is true for ChromeOS, which has Nearby Share built in at the system level.
+With Windows, you'll need to download and set up the official Google Nearby Share program one time to get the PC ready. From then on out, your wireless sharing should just work.
+
+
+Syncing your Android phone's storage with a computer
+Maybe you like having certain files stored locally on your Android phone, but you also want those files to be backed up and saved on your computer. The best of both worlds, right?
+Believe it or not, this is actually quite easy to pull off. Just grab an Android app called AutoSync, which is available for use with Google Drive, Microsoft OneDrive, Dropbox, and Box. It'll let you create pairings between a local folder on your phone and a cloud-based folder — for free with a single folder pair and files smaller than 10MB or for a one-time $5 payment without any real restrictions.
+Install the appropriate computer-side app for whichever service you prefer, make sure it's set to sync with your computer's hard drive — and there ya have it: Your Android device's folder is now effectively part of your PC.
+You can even have the folders stay constantly synced in both directions — so if you add or update a file on the computer, the same changes will appear on your phone as well.
+That's a wrap!
+Congratulations: You've officially earned the title of Android file master. (For real — you can even type it into a document, print it out, and tape it to your desk so everyone knows.)
+Next up: Make sure you understand the ins and outs of Android backups. They're ultimately made up of files, too, after all — and pretty important ones, at that.
+
+
+—
+Apple's Vision Pro and the coming healthcare revolution
+
+
+
+
+Once upon a time, a young doctor joined the surgical unit at a prestigious hospital as an anaesthesiologist. He was an Apple user, of course, wearing Vision Pro during surgical procedures, as it allowed him to monitor all the vital signs during operations.
+This is not a fairy story. It is a prediction based on the known direction of travel. After all, the device can already be used to display patient medical records in one expansive view….
+We saw with Google Glass that one of the few successful deployments for that device was in certain sectors of the medical profession. Apple’s Vision Pro brings all that device did, adding in the kind of power you’ll get from a wearable computer augmented with AI. That’s why the medical profession is paying a lot of attention to 
+GlobalData is monitoring more than a dozen mixed-reality trends in the medical field. These include optomery applications, surgical tools, and remote-care solutions, the analysts said.
+Sourabh Nyalkalkar, practice head of innovation products at GlobalData, explained some of the future in a statement:
+“The basic premise of surgical AR/VR innovation revolves around integrating XR technologies into surgical procedures. However, the intricate nature of surgical care demands more than just superimposing computer-generated images onto a surgeon’s view. The goal extends to providing real-time visual guidance and enhanced awareness during surgery.”
+This technology will usher in “transformative change” across multiple industries, and the good doctor at the top of this tail is joining one of them.
+Take a look at the evidence.
+In the operating theater
+A company called eXeX has already used Vision Pro in the operating room — when Dr. Robert Masson used the device during spinal surgery. The doctor sees the use of visual holographic guidance during surgery as transformative.
+“This advancement is not just about enhancing surgical precision, but about revolutionizing the entire surgical team’s approach, making each operating more calm, quiet, and effortlessly efficient,” he said. The work builds on existing use of augmented reality, which UC San Diego Health began to use during surgery in 2021.
+There are also uses in the associated field of radiology. The Visage Ease VP app provides an immersive experience for viewing high resolution radiology images;  because the viewing field is so immense, this can help deliver better patient care strategies.  
+"Technology that allows for sophisticated eye motion and gesture controls for reviewing 2D and 3D medical imaging could potentially help in efficient tumor board reviews and create collaborative spaces in healthcare,” said Paul Murphy, one of the radiologists involved in the project.
+In the hospital
+Sharp Healthcare in San Diego is exploring the use of Apple’s new wearables at its new Spatial Computing Center of Excellence program. Thirty of the devices are being used by healthcare workers across multiple roles and the researchers are working with health records systems leader Epic to explore how they might be used.
+By far, the most obvious use is for patient monitoring, including the capacity to monitor multiple patients on wards; but use during surgery, particularly by anesthesiologists, is also an emerging possibility.
+It means the surgical team — including that young doctor — can maintain focus on the patient while also seeing all available relevant patient data in the same view.
+A tool for therapy
+Researchers from Cedars-Sinai are working on Xaia, an AI-powered chatbot therapist for the device. The application offers users an immersive therapy session led by a trained digital avatar, programmed to simulate a human therapist.
+Psychiatrist Omar Liran, who co-founded the app, says the application is “a culmination of years of rigorous research, clinical expertise and a vision to democratize mental wellness in a way that respects the uniqueness of every individual's experience. Using the powerful capabilities of Vision Pro, we’re now able to bring this experience to life with its full potential.”
+Virtual reality is already being used widely to help deliver exposure therapy to post-traumatic stress disorder. The idea is that patients are exposed to their PTSD triggers for short periods using XR displays.
+Given the eye-tracking inherent to Vision Pro (albeit subject to the privacy controls Apple has in place, which might limit use), it’s possible such therapies could also be optimized.
+Medical teaching and planning
+Medical publisher Elsevier has introduced an interesting Complete HeartX health app for the device. This provides a new way to link tailored 3D anatomy and physiology with diagnoses and treatments to better prepare students for the real-world pressures of treating patients.
+Boston Children’s Hospital has built CyranoHealth, which provides immersive training experience for nurses and other healthcare workers. And Apple has highlighted a couple of other apps, Insight Heart, which lets users understand the human heart, and CellWalk, which takes users on a tour of life’s molecular machines to explore a whole bacteria cell, down to individual atoms.
+...And beyond
+Unlike the good doctor, we’re just scratching the surface of the possible here. Researchers are getting deep into identifying ways in which Apple’s devices can optimize medical practice.
+Medical researchers at Essen University Hospital in Germany are exploring more ways in which the device might be useful, for example in identifying early warning signs of vertigo, stroke, or dementia — can the device analyze eye movements to surface such warnings?
+What we can achieve with a new tool as potentially disruptive as Apple’s latest invention will be determined during a marathon, not a sprint — and the race has only now begun.
+15 000
+—-
+Only a week after releasing its latest generative artificial intelligence (genAI) model, Google on Thursday unveiled that model’s successor, Gemini 1.5. The company boasts that the new version bests the earlier version on almost every front.
+Gemini 1.5 is a multimodal AI model now ready for early testing. Unlike OpenAI's popular ChatGPT, Google said, users can feed into its query engine a much larger amount of information to get more accurate responses.
+(OpenAI also announced a new AI model today: Sora, a text-to-video model that can generate complex video scenes with multiple characters, specific types of motion, and accurate details of the subject and background "while maintaining visual quality and adherence to the user’s prompt." The model understands not only what the user asked for in the prompt, but also how those things exist in the physical world.)
+
+
+Google's Gemini models are the industry’s only native, multimodal large language models (LLMs); both Gemini 1.0 and Gemini 1.5 can ingest and generate content through text, images, audio, video and code prompts. For example, user prompts in the Gemini model can be in the form of JPEG, WEBP, HEIC or HEIF images.
+"Both OpenAI and Gemini recognize the importance of multi-modality and are approaching it in different ways. Let us not forget that Sora is a mere preview/limited availability model and not something that will be generally available in the near-term," said Arun Chandrasekaran, a Gartner distinguished vice president analyst.
+OpenAI's Sora will compete with start-ups such as text-to-video model maker Runway AI, he said.
+Gemini 1.0, first announced in December 2023, was released last week. With that move, Google said it had reconstructed and renamed its Bard chatbot.
+Gemini has the flexibility to run on everything from data centers to mobile devices.
+Though ChatGPT 4, OpenAI’s latest LLM, is multimodal, it only offers a couple of modalities such as images and text or text to video, according to Chirag Dekate, a Gartner vice president analyst.
+“Google is seizing its role as the leader as an AI cloud provider. They’re no longer playing catch up. Others are,” Dekate said. "If you’re a registered user of Google Cloud, today you can access more than 132 models. Its breadth of models is insane.”
+"Media and entertainment will be the vertical industry that may be early adopters of models like these, while business functions such as marketing and design within technology companies and enterprises could also be early adopters," Chandrasekaran said.
+Currently, OpenAI is working on its next-generation GPT 5; that model is likely to also be multimodal. Dekate, however, argued that GPT 5 will consist of many smaller models cobbled together, and won't be not natively multimodal. That will likely result in a less-efficient architecture.
+The first Gemini 1.5 model Google has offered for early testing is Gemini 1.5 Pro, which the company described as "a mid-size multimodal model optimized for scaling across a wide-range of tasks." The model performs at a similar level to Gemini 1.0 Ultra, its largest model to date, but requires vastly fewer GPU cycles, the company said. 
+Gemin 1.5 Pro also introduces an experimental feature in long-context understanding, meaning it allows developers to prompt the engine with up to 1 million context tokens. 
+Developers can sign up for a Private Preview of Gemini 1.5 Pro in Google AI Studio.
+Google AI Studio is the fastest way to build with Gemini models and enables developers to integrate the Gemini API in their applications. It’s available in 38 languages across more than 180 countries and territories.
+Google’s Gemini model was built from the ground up to be multimodal, and doesn’t consist of multiple parts layered atop one another as competitors' models are. Google calls Gemini 1.5 “a mid-size multimodal model” optimized for scaling across a wide range of tasks; while it performs at a similar level to 1.0 Ultra, it does so by applying many smaller models under one architecture for specific tasks.
+Google achieves the same performance in a smaller LLM by using an increasingly popular framework known as “Mixture of Experts,” or MoE. Based on two key architecture elements, MoE layers a combination of smaller neuro networks together  and it runs a series of neuro-network routers that dynamically drive query outputs.
+“Depending on the type of input given, MoE models learn to selectively activate only the most relevant expert pathways in its neural network. This specialization massively enhances the model’s efficiency,” Demis Hassabis, CEO of Google DeepMind, said in a blog post. “Google has been an early adopter and pioneer of the MoE technique for deep learning through research such as Sparsely-Gated MoE, GShard-Transformer,  Switch-Transformer, M4 and more.”
+The MoE architecture allows a user to input an enormous amount of information but enables that input to be processed with vastly fewer compute cycles in the inference stage. It can then deliver what Dekate called “have hyper-accurate responses.”
+“Their competitors are struggling to keep up, but their competitors don’t have DeepMind or the GPU [capacity] Google has to deliver results,” Dekate said.

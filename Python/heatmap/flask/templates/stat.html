@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Info</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="plot-container">
+        <h1>Тепловая карта сайта</h1>
+        {{ plot_heatmap_html | safe }}
+    </div>
+    <div class="plot-container">
+        <h1>Количество уникальных посещений</h1>
+        {{ plot_daily_visits_html | safe }}
+    </div>
+    <div class="plot-container">
+        <h1>Место посещения сайта</h1>
+        {{ plot_counties_html | safe }}
+        {{ plot_cities_html | safe }}
+        {{ plot_map_html | safe }}
+    </div>
+</body>
+</html>

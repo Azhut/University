@@ -1,0 +1,12 @@
+Y
+2 2
+3 2
+3 3
+3 4
+2 4
+
+  ifstream fin(R"(C:\Users\Egor\Desktop\Coding\C++\KA_Lab1\in.txt)");
+  ofstream fout(R"(C:\Users\Egor\Desktop\Coding\C++\KA_Lab1\out.txt)");
+
+  if (!fin.is_open()) // если файл не открыт
+          cout << "Cannot open the file\n";

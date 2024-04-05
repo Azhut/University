@@ -1,0 +1,24 @@
+2
+Codeforces Gamma Round 512
+29.02.16
+5 4
+A Accepted
+B Accepted
+C Accepted
+E Accepted
+URCOP
+17.10.15
+12 11
+A Accepted
+B Wrong Answer
+B Time
+J Accepted
+B Accepted
+J Time
+J Accepted 
+F Accepted 
+E Runtime 
+H Accepted
+E Time 
+,
+

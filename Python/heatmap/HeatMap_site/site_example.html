@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <title>Пример сайта с различными блоками</title>-->
+    <!--    <style>-->
+    <!--        .block {-->
+    <!--            width: 200px;-->
+    <!--            height: 100px;-->
+    <!--            margin: 10px;-->
+    <!--            padding: 10px;-->
+    <!--            border: 1px solid #000;-->
+    <!--            display: inline-block;-->
+    <!--        }-->
+    <!--    </style>-->
+    <title>Heatmap</title>
+    <style>
+        #heatmap {
+            position: relative;
+            width: 1000px;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<h1>Привет, дорогой друг, я тебя очень люблю,<br> разреши мне доступ в твое сердечко-------------------------------><br><img
+        src="коооот.png" width="300" height="300"><img src="коооот.png" width="300" height="300"><img src="коооот.png"
+                                                                                                      width="300"
+                                                                                                      height="300"><img
+        src="коооот.png" width="300" height="300"><br>
+    Нажми на котика, пожааааааалуйста)))))<br>
+     </h1>
+<div class="block">
+    <h2>Форма для ввода текста</h2>
+    <form>
+        <label for="username">Имя:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+<div class="block">
+    <h2>Выпадающий список</h2>
+    <select>
+        <option value="option1">Опция 1</option>
+        <option value="option2">Опция 2</option>
+        <option value="option3">Опция 3</option>
+        <option value="option4">Опция 4</option>
+    </select>
+</div>
+<div id="heatmap"></div>
+
+<script>
+    // Массив с координатами пикселей
+    var coordinates = [{'x': 572, 'y': 309}, {'x': 911, 'y': 354}, {'x': 466, 'y': 600}];
+
+    // Получаем элемент div с идентификатором "heatmap"
+    var heatmapElement = document.getElementById('heatmap');
+
+    // Проходимся по всем координатам и окрашиваем пиксели
+    coordinates.forEach(function (coord) {
+        var x = coord.x;
+        var y = coord.y;
+
+        // Создаем элемент div для пикселя
+        var pixelElement = document.createElement('div');
+        pixelElement.style.position = 'absolute';
+        pixelElement.style.left = x + 'px';
+        pixelElement.style.top = y + 'px';
+        pixelElement.style.width = '1px';
+        pixelElement.style.height = '1px';
+        pixelElement.style.backgroundColor = 'red';
+
+        // Добавляем элемент пикселя к элементу heatmap
+        heatmapElement.appendChild(pixelElement);
+    });
+</script>
+<script>
+    // Получение элемента, на котором происходит клик
+    // Обработчик события клика на любом месте страницы
+    document.addEventListener('click', function (event) {
+        var x = event.clientX;
+        var y = event.clientY;
+
+
+        var clickData = {
+            x: x,
+            y: y,
+            screenWidth: window.screen.width,
+            screenHeight: window.screen.height
+        };
+
+        fetch('http://127.0.0.1:5000/click', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(clickData)
+        })
+            .then(response => {
+                if (response.ok) {
+                    console.log('Координаты пикселя успешно отправлены на сервер!');
+                } else {
+                    console.error('Ошибка при отправке координат пикселя на сервер.');
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            });
+    });
+    // Создаем объект для хранения информации о пользователе
+    var userData = {
+        date: new Date().toLocaleString(), // Дата и время захода на сайт
+        deviceType: getDeviceType(), // Тип устройства пользователя
+        location: null, // Локация пользователя (получим ее позже)
+        screenWidth: window.screen.width,
+        screenHeight: window.screen.height
+    };
+
+    // Получаем тип устройства пользователя
+    function getDeviceType() {
+        var userAgent = navigator.userAgent;
+        if (/Android/i.test(userAgent)) {
+            return 'Android';
+        } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+            return 'iOS';
+        } else if (/Windows/i.test(userAgent)) {
+            return 'Windows';
+        } else if (/Mac/i.test(userAgent)) {
+            return 'Mac';
+        } else {
+            return 'Other';
+        }
+    }
+
+    // Получаем локацию пользователя с помощью Geolocation API
+    navigator.geolocation.getCurrentPosition(function (position) {
+        userData.location = {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude
+        };
+        sendUserData();
+    });
+
+    // Отправляем данные пользователя на сервер
+    function sendUserData() {
+        var url = 'http://127.0.0.1:5000/parse';
+        var options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(userData)
+        };
+
+        fetch(url, options)
+            .then(response => {
+                if (response.ok) {
+                    console.log('Данные успешно отправлены на сервер!');
+                } else {
+                    console.error('Ошибка при отправке данных на сервер.');
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            });
+    }
+</script>
+</body>
+</html>

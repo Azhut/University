@@ -1,0 +1,7 @@
+1)I am trying to use the DatePicker in flutter and I want to set the initialDate to DateTime.now()
+2)and the lastDate I want to set to DateTime.now() + 20yrs so it increments the year dynamically.
+3)Current I have my lastDate set to the year (2100),
+4)but this would cause a problem when the year 2101 reaches.
+5)So how can I modify my function to increase the lastDate dynamically?
+6)
+7)Here is my function:

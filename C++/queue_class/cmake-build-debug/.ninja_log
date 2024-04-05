@@ -1,0 +1,19 @@
+# ninja log v5
+5	2124	6994674758869171	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+5	330	6994675349801572	queue_class.exe	afd8acf20d4f2f24
+8	1484	6994670327942161	CMakeFiles/queue_class.dir/fast_sort_list.cpp.obj	ad9080c39f5c829c
+13	2094	6994674758172719	CMakeFiles/queue_class.dir/Queue.cpp.obj	ab98100c691a2e08
+1	956	6994691566214865	build.ninja	645f5b8694f22e74
+9	1130	6994691579748476	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+17	1170	6994691579799372	CMakeFiles/queue_class.dir/Queue.cpp.obj	ab98100c691a2e08
+1170	1413	6994691582523682	queue_class.exe	afd8acf20d4f2f24
+8	977	6994691827022459	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+978	1163	6994691828841392	queue_class.exe	afd8acf20d4f2f24
+5	921	6994707172975736	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+12	939	6994707173180119	CMakeFiles/queue_class.dir/Queue.cpp.obj	ab98100c691a2e08
+939	1217	6994707175904421	queue_class.exe	afd8acf20d4f2f24
+9	2098	6995392649456719	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+58	2104	6995392649902092	CMakeFiles/queue_class.dir/Queue.cpp.obj	ab98100c691a2e08
+2105	3432	6995392663290022	queue_class.exe	afd8acf20d4f2f24
+10	971	6995392874941953	CMakeFiles/queue_class.dir/main.cpp.obj	1a5c936829fa7308
+972	1262	6995392877692178	queue_class.exe	afd8acf20d4f2f24
